@@ -34,11 +34,11 @@ def get_team(i):
     if (i==1):
         s.add("Arbre",treeStrat1)
     elif (i==2):
-        s.add("Attaquant", MS.Attack3())
-        s.add("Defenseur", MS.Intercept3())
+        s.add("Attaquant", MS.Attack2())
+        s.add("Defenseur", MS.Intercept())
     elif (i==4):
-        s.add("ATTAQUANT 1", MS.Attack3())
-        s.add("ATTAQUANT 2 ", MS.Intercept3())
+        s.add("ATTAQUANT 1", MS.Attack2())
+        s.add("ATTAQUANT 2 ", MS.Intercept())
         s.add("DEFENSEUR 1", treeStrat1)
         s.add("DEFENSEUR 2", MS.Attack2())
     return s
